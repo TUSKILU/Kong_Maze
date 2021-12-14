@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -std=c++17   CMakeFiles/Kong_Maze.dir/src/main.cpp.o CMakeFiles/Kong_Maze.dir/src/renderer.cpp.o CMakeFiles/Kong_Maze.dir/src/game.cpp.o CMakeFiles/Kong_Maze.dir/src/controller.cpp.o  -o Kong_Maze -L/usr/lib/x86_64-linux-gnu  -lSDL2 
