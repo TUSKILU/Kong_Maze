@@ -8,7 +8,7 @@ A simple Game is developed in Cpp with SDL2 Module.
 
 
 
-<img src="snake_game.gif"/>
+<img src="Kong_Maze.PNG"/>
 
 
 ## Dependencies for Running Locally
