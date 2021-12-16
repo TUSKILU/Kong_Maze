@@ -33,7 +33,7 @@ void Game::Run( Renderer &renderer, Controller &controller,
   bool end_flag = false;//true=> 
   bool restart_flag=false;
   // Load kong image 
-  char* kong_path = "/home/workspace/Kong_Maze/src/img/kong";
+  char* kong_path = "../src/img/kong";
   if(! (renderer.Load("kong", kong_path))){
     std::cout<< "Load image error" << std::endl;
     return;}else{
@@ -41,21 +41,21 @@ void Game::Run( Renderer &renderer, Controller &controller,
 
   }
   //Load rock image
-  char* rock_path = "/home/workspace/Kong_Maze/src/img/rock";
+  char* rock_path = "../src/img/rock";
   if(! (renderer.Load("rock", rock_path))){
     std::cout<< "Load image error" << std::endl;
     return;}else{
      std::cout<< "Load image successfully" << std::endl;}
   
     //Load banana image
-  char* banana_path = "/home/workspace/Kong_Maze/src/img/banana";
+  char* banana_path = "../src/img/banana";
   if(! (renderer.Load("banana", banana_path))){
     std::cout<< "Load image error" << std::endl;
     return;}else{
      std::cout<< "Load image successfully" << std::endl;}
    
      //Load EndGame image
-  char* End_path = "/home/workspace/Kong_Maze/src/img/Endgame";
+  char* End_path = "../src/img/Endgame";
   if(! (renderer.Load("end",End_path ))){
     std::cout<< "Load image error" << std::endl;
     return;}else{
